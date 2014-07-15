@@ -4,6 +4,63 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>Sweet Tiers Cakery | Bake Sale</title>
 	<style type="text/css">
+	   /*/// RESET STYLES ///*/
+	   body, #bodyTable, #bodyCell{ height:100% !important; margin: 0; padding: 0; width: 100% !important; }
+	   table { border-collapse: collapse; }
+	   img, a img { border: 0; outline: none; text-decoration: none; }
+	   h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; }
+
+	   /*/// CLIENT-SPECIFIC STYLES ///*/
+	   .ReadMsgBody{ width: 100%; } .ExternalClass { width: 100%; }  /* Forces Outlook/Hotmail.com to display at full width */
+	   .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } /* Forces Outlook/Hotmail.com  to display line heights normally. */
+	   table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; } /* Remove spacing between tables in Outlook 2007 and up. */
+	   #outlook a { padding: 0; } /* Forces Outlook 2007 and up to provide a "view in browser" message. */
+	   img { -ms-interpolation-mode: bicubic; } /* Forces IE to smoothly render resized images. */
+	   body, table, td, p, a, li, blockquote{-ms-text-size-adjust: 100%; -webkit-text-size: 100%;} /* Prevent Windows- and Webkit based moblie platforms from changing declared text sizes. */
+	
+	    /*/// GENERAL STYLES ///*/	
+	   h1, h2, h3, h4, h5, h6, body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	   h1, h1 a { color: #f96810; font-size: 30px; font-weight: 100; line-height: 115%; padding-bottom: 10px; text-align: left; }
+	   h2, h2 a { color: #faf6db; font-size: 24px; font-weight: 100; line-height: 100%; text-align: left; }
+	   h3, h3 a { color: #f96810; font-size: 16px; font-weight: 600; line-height: 115%; text-align: left; }
+	  
+	  body, #bodyCell { background-color: #3f2623; }
+	  body { font-size: 14px; line-height: 21px; }
+	  
+	  #emailContainer { background-color: #faf6db; margin-top: 20px; width: 100%; }
+	 
+	  #introductionLogo { display: block; padding: 40px; margin-right: 40px; }
+	  #introductionBlock { padding: 40px; }
+
+	  .heroHeading { padding: 40px 0 0 10px;  font-size: 16px; font-weight: 600; line-height: 24px;}
+	  
+
+	  #callToActionContainer { background-color: #f96810; padding: 40px; }
+	  #callToActionBlock { margin-top: 30px; line-height: 25px; }	
+	  #callToActionContent { color: #faf6db; font-weight: 500; }
+	  #callToActionContent h2{ margin-bottom: 5px; text-align: center;}
+	   .callToActionButton { margin: 10px 0 20px;  }
+        .callToActionButtonContent { background-color: #faf6db; border-radius: 4px; padding: 20px; }
+        .callToActionButtonContent a { color: #f96810; text-decoration: none; font-weight: 600; font-size: 18px; }
+       
+        #merchandiseWrap { border: 1px solid #3f2623; }
+	  #merchandiseContainer { background-color: #faf6db; display: block; padding: 40px; }
+	  #merchandiseBlock { display: block; padding: 20px; font-size: 16px; }
+	  #merchandiseBlock tr { display: table; margin-bottom: 20px;  }
+	  #merchandiseBlock a { color: #f96810; font-size: 12px; }
+	  .merchandiseHeading h2 { color: #f96810; padding: 20px 0 5px; font-size: 30px; }
+	  .merchandiseHeading { font-size: 15px; }
+	  .merchandiseContentImage { display: inline-block; margin-left: 20px; }
+	  .merchandiseContentText { padding-left: 10px; font-size: 14px; line-height: 18px;}
+	  .merchandiseContentText span { font-size: 13px  }
+		 	
+       
+       #footerContainer { background-color: #3f2623; display: block; padding: 20px; }
+       .footerContent { color: #faf6db; font-weight: 300;  font-size: 12px; padding: 0 0 10px 0;}
+       #footerBlock a { color: #f96810; font-weight: 400; text-decoration: none; }
+        
+       .filagre { background-color: #faf6db; }
+       .filagre td { padding: 40px 0; }
 	 </style>
 </head>
 <body>
@@ -12,104 +69,105 @@
 	 	 	<tr>
 	 	 		<td align="center" valign="top" id="bodyCell">
 	 	 			<table border="0" cellpadding="0" cellspacing="0" id="emailContainer">
+	 	 			      <tr align="left"valign="top" id="logoContainer">
+	 	 					<td align="center" id="introductionLogo">
+								<img src="img/logo.jpg" alt="copy logo for sweet tiers cakery" />
+							</td>
+	 	 				</tr><!-- end #logoContainer -->
 	 	 				<tr align="center"valign="top" id="introductionContainer">
 	 	 					<td>
- 	 							<tr>
- 	 								<td align="center" align="top"  id="introductionLogo">
- 	 									<img src="img/logo.jpg" alt="copy logo for sweet tiers cakery" />
- 	 								</td>
- 	 							</tr>
 	 	 						<table border="0" cellpadding="0" cellspacing="0" width="520" id="introductionBlock">	 	 		
 	 	 							<tr>
-	 	 								<td align="left" valign="top" class="heroImage">
+	 	 								<td align="left" valign="top" width="220" class="heroImage">
 	 	 									<img src="img/heroImage.jpg" alt="hero image for intro block" />
 	 	 								</td>
-	 	 								<td align="left" valign="middle" class="heroHeading"> 
+	 	 								<td align="left" valign="top" class="heroHeading"> 
 	 	 									<h1>Bake Sale</h1>
-	 	 									   Save 10% to 30% off the entire lineof cakes and pastries
+	 	 									   Save 10% to 30% <br /> off the entire line <br /> of cakes and pastries
 	 	 								</td>
-	 	 							</tr>	 	 							
+	 	 							</tr>		 	 													
 	 	 						</table><!-- end #introductionBlock -->
-	 	 					     	<tr>
- 	 								<td align="center" valign="top" id="introductionContent">
- 	 									<img src="img/filagreTop.png" alt="filagreTop.png" />
- 	 								</td>
- 	 							</tr>
-	 	 					</td>
+	 	 					</td>	 	 					
 	 	 				</tr><!-- end #introductionContainer -->
-	 	 				<tr align="center"valign="top" id="callToActionContainer">
+
+ 	 					<tr align="center" valign="top" class="filagre"> 
+						    <td>
+							  <img src="img/filagreTop.png" alt="filagreTop.png" />
+						    </td>
+						</tr> 	 
+	 	 				
+	 	 				<tr align="center" height="200" valign="top" id="callToActionContainer">
 	 	 					<td>
-	 	 						<table border="0" cellpadding="0" cellspacing="0" id="callToActionBlock">
+	 	 					    <table border="0" cellpadding="0" cellspacing="0" id="callToActionBlock">
 	 	 							<tr>
-	 	 							    <td align="center" valign="top" id="callToActionContent">
-	 	 								  <h2>Custom Cakes for All Occasions</h2>
-	 	 								     <br />
-	 	 								     Choose from traditional, modern or even whimsical designs!
-	 	 								     Sweet Tiers Cakery can guide you through the process of 
-										     creating a beautiful cake for your event. 
+	 	 							    <td align="center" valign="top" width="400" id="callToActionContent">
+	 	 								  <h2 class="callToActionHeader">Custom Cakes for All Occasions</h2>
+	 	 								 
+	 	 								     Choose from traditional, modern or even whimsical designs! <br />
+	 	 								     Sweet Tiers Cakery can guide you through the process of  <br />
+										     creating a beautiful cake for your event.  
 	 	 							    </td><!-- end #callToActionContent -->
 	 	 							</tr>
 	 	 							<tr>
-	 	 								<table border="0"cellpadding="0"cellspacing="0" class="callToActionButton">
+	 	 								<table border="0" cellpadding="0" cellspacing="0" class="callToActionButton">
 	 	 									<tr>
-	 	 										<td align="center" valign="middle" class="callToActionButtonContent">
-	 	 											<a href="http://www.sweettierscakery.com/#!contact_us/c1z0x" target="_blank">Place An Order Today</a>
-	 	 										</td><!-- end .callToActionButtonContent -->
+	 	 									    <td align="center" valign="middle" class="callToActionButtonContent">
+	 	 										   <a href="http://www.sweettierscakery.com/#!contact_us/c1z0x" target="_blank">Place An Order Today</a>
+	 	 									    </td><!-- end .callToActionButtonContent -->
 	 	 									</tr>
 	 	 								</table><!-- end .callToActionButton -->
 	 	 							</tr>
 	 	 							<tr>
-	 	 								<td align="center"valign="top" id="callToActionContent">
-	 	 									<img src="img/filagreBottom.png" alt="filagreBottom.png" />
-	 	 								</td>
-	 	 							</tr>
-	 	 						</table><!-- end #callToActionBlock -->
-	 	 					</td>	 	 					
+	 	 						</table>
+	 	 					</td>
 	 	 				</tr><!-- end #callToActionContainer -->
-	 	 				<tr>
-	 	 					<td align="center"valign="top" id="merchandiseContainer">
-	 	 						<table border="0"cellpadding="0"cellspacing="0"width="600" id="merchandiseBlock">
-	 	 							<tr>
-	 	 								<td align="left" valign="top" class="merchandiseHeading">
-	 	 									<h2>Schedule a Testing</h2>	 	 								
-	 	 										We offer complimentary cake tastings for orders over $350 (only by appointment)
-	 	 								</td>
-	 	 							</tr>
-	 	 							<tr>
-	 	 								<table border="0" cellpadding="0" cellspacing="0" id="merchandiseContent">
-	 	 									<tr>
-	 	 										<td align="left" valign="middle" class="merchandiseContentImage">
-	 	 											<img src="img/merchCake.jpg" alt="picture of baby shower cake" />
-	 	 										</td>
-	 	 										<td align="left" valign="middle" class="merchandiseContentText">
-	 	 											<span>cakes:</span>
-	 	 											<h3>Baby Shower Cake</h3>
-	 	 											    Gumpaste Figurine and Fondant Patchwork
-	 	 											   <br /> 
-	 	 											 <a href="http://www.sweettierscakery.com/#!cakes/c18h4" target="_blank">Visit Our Cake Gallery</a>   
-	 	 										</td>
-	 	 									</tr>
-	 	 									<tr>
-	 	 										<td align="left" valign="middle" class="merchandiseContentImage">
-	 	 											<img src="img/merchCupCake.jpg" alt="picture of super bowl cupcakes" />
-	 	 										</td>
-	 	 										<td align="left" valign="middle" class="merchandiseContentText">
-	 	 											<span>custom cupcakes:</span>	 	 											
-	 	 											<h3>Superbowl Sunday Cupcakes</h3>
-	 	 											    Footballs are edible Oreo/Cream Cheese Creations.
-	 	 											   <br /> 
-	 	 											 <a href="http://www.sweettierscakery.com/#!cupcakes/c3em" target="_blank">Visit Our CupCake Gallery</a>   
-	 	 										</td>
-	 	 									</tr>
-	 	 								</table><!-- end #merchandiseContent -->
-	 	 							</tr>
-	 	 						</table><!-- end #merchandiseBlock -->
-	 	 					</td><!-- end #merchandiseContainer -->
-	 	 				</tr>
-	 	 				<table border="0" cellpadding="0" cellspacing="0" id="footerContainer">
-	 	 				    <tr align="center"valign="top">
+
+						<tr align="center" valign="top" class="filagre"> 
+						    <td>
+							  <img src="img/filagreBottom.png" alt="filagreBottom.png" />
+						    </td>
+						</tr>
+
+	 	 				<tr align="center"valign="top" id="merchandiseContainer">
+	 	 				     <td id="merchandiseWrap">
+	 	 						<table>
+								   <tr>
+	 	 							   <td border="0" cellpadding="0" cellspacing="0" width="360" class="merchandiseHeading">
+	 									<h2>Schedule a Testing</h2>	 	 								
+	 							 			We offer complimentary cake tastings for orders over <br /> $350 (only by appointment)
+	 							   	  </td>
+	 	 						    </tr>	
+	 	 						 </table>  
+	 	 						<table border="0" cellpadding="0" cellspacing="0" width="360" id="merchandiseBlock"> 	 						  	 	 					
+ 	 							      <tr>
+ 	 							         <td width="100" class="merchandiseContentImage">
+	 									   <img src="img/merchCake.jpg" alt="picture of baby shower cake" />
+	 								   </td> 	
+ 									   <td align="left" valign="middle" class="merchandiseContentText">
+ 											<span>cakes:</span>
+ 											<h3>Baby Shower Cake</h3>
+ 											    Gumpaste Figurine <br /> and Fondant Patchwork
+ 											   <br /> 
+ 											 <a href="http://www.sweettierscakery.com/#!cakes/c18h4" target="_blank">Visit Our Cake Gallery</a>   
+ 										</td>
+	 									</tr>
+	 									<tr>
+	 									  <td width="100" class="merchandiseContentImage">
+	 									     <img src="img/merchCupCake.jpg" alt="picture of super bowl cake" />
+	 								        </td> 		
+  										   <td align="left" valign="middle" class="merchandiseContentText"> 										
+ 											<span>custom cupcakes:</span>	 	 											
+ 											<h3>Superbowl Sunday Cupcakes</h3>
+ 											    Footballs are edible <br /> Oreo/Cream Cheese Creations.
+ 											   <br /> 
+ 											 <a href="http://www.sweettierscakery.com/#!cupcakes/c3em" target="_blank">Visit Our CupCake Gallery</a>   
+ 									      </td>
+	 							    	</tr>	 	
+	 	 						</table><!-- end #merchandiseBlock --> 
+	 	 					</td><!-- end #merchandiscWrap -->		 	 				
+	 	 				<tr align="center"valign="top" id="footerContainer">
 	 	 					<td>
-	 	 						<table border="0"cellpadding="0"cellspacing="0"width="600" id="footerContentBlock">
+	 	 						<table border="0" cellpadding="0" cellspacing="0" width="600" id="footerBlock">
 	 	 							<tr>
 	 	 							   <td align="center" valign="top" class="footerContent">
 	 	 								 Sweet Tiers Cakery&nbsp;&#124;&nbsp;Staten Island, NY 10305 <br />
@@ -129,8 +187,7 @@
 	 	 							</tr>	 							
 	 	 						</table><!-- end #footerContentBlock -->
 	 	 					</td>
-	 	 				   </tr>
-	 	 			    </table><!-- end #footerContainer -->
+	 	 				</tr><!-- end #footerContainer -->
 	 	 			</table><!-- end emailContainer -->
 	 	 		</td><!-- end #bodyCell -->
 	 	 	</tr><!-- end tr -->
